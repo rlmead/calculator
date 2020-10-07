@@ -16,3 +16,4 @@ var number2= new number("2","someotherproperty2");
     //creaters a new empty pbject{}
     //-sets the value of "this: to be the new empty object
     //- calls the constructor method"
+ // a smal changer for git hub
