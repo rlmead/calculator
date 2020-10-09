@@ -1,8 +1,11 @@
 // declare class Calculator
 class Calculator {
+    constructor() {
+        this.parent = document.getElementById('main');
+    }
     // ## view
         // function generateElement to put elements in the html
-
+    var view = {
         function init() {
             // add div [bootstrap] class = container
             // add div [bootstrap] class = row
@@ -20,17 +23,20 @@ class Calculator {
         // bootstrap classes to declare at top level:
         // text-center
         // text-color: light
+    }
 
+    var model = {
     // ## Modle
         // define data parameters:
         // rawData, c for controller, display
-
+        
         // function to set initial values for data:
+        function init() {
         // init ()
             // rawData = []; // updated by controller
             // c = controller;
             // display = 0;
-
+        }
         // function to update state when button is pressed:
             // append button output (number/operator/both) to rawData
             // run evaluate rawData function
@@ -46,7 +52,7 @@ class Calculator {
         }
         
         //         ## Controller
-        let controller = {
+        var controller = {
             // init function to wrap other init functions
                 // call view.init()
                 // call model.init()
