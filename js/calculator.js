@@ -40,31 +40,18 @@ class Calculator {
             // check if there's an operator in rawData
             // if so, split on operator and concatenate stuff either side, and perform operation (when equals sign has been pressed... but not if it's just numbers right?)
             // when does rawData get cleared?
-
-
-            
         }
         
         //         ## Controller
         let controller = {
-            // to wrap all other functions
+            // init function to wrap other init functions
+                // call view.init()
+                // call model.init()
             
-            // clickhandlre(s)
-            // - reg click 
-            // - send and update the modle
-            // - send and update view
-            // -   
+            // clickhandlre(s) on buttons
+                // - get output from button (number and/or operator)
+                // - send and update the modle
+                // - use output from model to update view
         }
         
-        // //a file for every class
-        // // class is like a funtion for creating objects
-        //     //each object created will have the same peroperties but dose not need to fill them all with a value and will have diffrenent values
-        //     ex.
-        //         class example{
-        //             constructor(){
-    
-        //             }
-        //         }
-        //     run loop to make 16 new items operater num, special, dipalys
-        //         var examplle1 = new example
 }
