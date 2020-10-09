@@ -39,7 +39,10 @@ class Calculator {
         // function to evaluate rawData
             // check if there's an operator in rawData
             // if so, split on operator and concatenate stuff either side, and perform operation (when equals sign has been pressed... but not if it's just numbers right?)
-            // when does rawData get cleared?
+
+        // function for clearing data
+            // clear: while last item in rawData is a numeral, pop it
+            // all clear: model.init()
         }
         
         //         ## Controller
